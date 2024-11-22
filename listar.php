@@ -37,7 +37,7 @@ $usuarios = $usuario->listarUsuarios();
                 </tr>
             </thead>
             <tbody>
-                <?php foreach ($usuarios as $user): ?>
+                <?php foreach ($ur6suarios as $user): ?>
                     <tr>
                         <td><?= htmlspecialchars($user['id_usuario']) ?></td>
                         <td><?= htmlspecialchars($user['nome']) ?></td>
